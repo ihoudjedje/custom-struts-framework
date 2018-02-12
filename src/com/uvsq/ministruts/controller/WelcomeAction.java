@@ -8,7 +8,7 @@ public class WelcomeAction implements Action {
 	@Override
 	public String perform(HttpServletRequest request, HttpServletResponse response) {
 		
-		if(Integer.parseInt(request.getParameter("age")) > 18) {
+		if(request.getParameter("age")!= "" && Integer.parseInt(request.getParameter("age")) > 18) {
 		
 			System.out.println("Hello "+ request.getParameter("firstname") + " " + request.getParameter("familyname")+ "\n");
 			System.out.println("you got " + request.getParameter("age") + "\n");
