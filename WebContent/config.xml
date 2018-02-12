@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<actions>
+		<action>
+			<url-pattern>/index.do</url-pattern>
+			<action-name>com.uvsq.ministruts.controller.IndexAction</action-name>
+		</action>
+		
+		<action>
+			<url-pattern>/welcome.do</url-pattern>
+			<action-name>com.uvsq.ministruts.controller.WelcomeAction</action-name>
+		</action>
+		
+		<action>
+			<url-pattern>/exit.do</url-pattern>
+			<action-name>com.uvsq.ministruts.controller.ExitAction</action-name>
+		</action>
+</actions>
